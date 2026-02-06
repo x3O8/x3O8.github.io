@@ -1,0 +1,14 @@
+# Robots.txt for Solytes
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://solytes.tech/sitemap.xml
+
+# Disallow admin or private areas if any
+Disallow: /api/
+Disallow: /_headers
+Disallow: /*.json$
+
+# Crawl delay for courtesy
+Crawl-delay: 1
